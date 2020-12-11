@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+    <script>
+        // receber idade do motorista
+        var idadeMotorista = prompt('informe sua idade')
+        // idade permitida
+        var idadePermitida = 18;
+        // criar função
+        function motorista(){
+            // estruturar condição positiva
+            if(idadeMotorista >= idadePermitida){
+            console.log('pode dirigir')
+        }
+        // estruturar condição negativa
+        if(idadeMotorista < idadePermitida){
+            console.log(' não pode dirigir')
+        }
+        }
+        // executar função no console
+        console.log(motorista())
+
+
+    </script>
+</body>
+</html>
