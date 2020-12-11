@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        //Recebendo o valor do prompt
+        var nome = window.prompt('seu nome')
+        //Pulando linha
+        function pulaLinha(){
+            document.write('<br><br>')
+        }
+        //Mostrando na tela
+        function mostra(msg){
+            document.write(msg)
+            pulaLinha()
+        }
+        //concatenado msg com variável
+        mostra('Olá ' + nome);
+        mostra('Tudo bem ' + nome + '?');
+       
+
+   
+    </script>
+</body>
+</html>

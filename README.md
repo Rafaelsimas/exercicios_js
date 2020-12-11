@@ -23,3 +23,21 @@ Este programa tem como função mostrar a inflação que alguns alimentos sofrer
 ```
 Este programa tem como função mostrar a o lucro líquido na venda de uma pizza e o seu imposto.
 ```
+
+# Saudação com quebra de linha
+
+```
+Este programa tem como função mostrar o nome do usuário com uma mensagem de boas vindas .
+```
+
+# Resto da divisão
+
+```
+Este programa tem como função mostrar o resto de divisão inteira.
+```
+
+# concatenação
+
+```
+Este programa tem como função mostrar um olá mundo com empaçõ entre as duas strings.
+```
