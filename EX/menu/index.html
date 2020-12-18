@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //criando a funcao
+        function mostraMenu(){
+            //declarando variaveis
+        var bebida1 = '(1)REFRIGERANTE R$:13,00';
+        var bebida2 = '(2)SUCO R$:7,00';
+        var bebida3 = '(3)ÁGUA R$:3,00';
+        var bebida4 = '(4)ÁGUA COM GÁS R$:3,50';
+        var bebida5 = '(5)JARRA DE SUCO R$: 15,00';
+        var bebida6 = '(6)VODIKA R$: 23,00';
+        var bebida7 = '(7)VINHO TINTO R$: 18,00';
+        var bebida8 = '(8)SHANDON R$: 26,00';
+        var bebida9 = '(9)CHOP R$: 10,00';
+        var quebra = '\n';
+        var menu = 'Faça o seu pedido aqui.'
+        //entrada do usuario
+        var pedido = prompt( 'informe o seu pedido', menu)
+        //concatenacao das variaves
+        var resultado =(bebida1 + quebra + bebida2 + quebra + bebida3 + quebra + bebida4 + quebra + bebida5 + quebra + bebida6 + quebra + bebida7 + quebra + bebida8 + quebra + bebida9 + quebra + pedido)
+        //retorno da variabel resultado
+        return resultado;
+       
+        }
+      //chamada da funcao no console.
+       console.log(mostraMenu())
+      
+     
+    </script>
+</body>
+</html>

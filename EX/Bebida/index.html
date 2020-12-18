@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // criando funcao  com seus parametros
+        function bebida(idadeCliente, liberacao){
+            // valor da variavel
+            var liberacao = 18;
+            // entrada do usuario
+            var idadeCliente = prompt('informe a sua idade');
+            // verificacao de idade
+            switch(idadeCliente >= liberacao){
+                case true:
+                    document.write('pode beber')
+                    break;
+
+                case false:
+                    document.write('nao pode beber')
+                    break;
+            }
+        }
+        // chamada da funcao
+        bebida()
+    </script>
+
+</body>
+</html>

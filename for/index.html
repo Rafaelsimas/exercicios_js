@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    
+    <script>
+        var numeroUsuario = parseInt(prompt('informe o numero'))
+        if(isNaN(numeroUsuario)){
+            alert('Apenas numeros sao suportados')
+        }
+
+        for(var cont = 0; cont <= (numeroUsuario/2); cont++){
+            if(numeroUsuario%cont ==0){
+                console.log(cont)
+
+            }
+        }
+        console.log(numeroUsuario)
+    </script>
+</body>
+</html>

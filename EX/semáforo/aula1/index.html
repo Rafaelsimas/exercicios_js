@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+
+    function semaforo() {
+        var sinal;
+   sinal = prompt('qual a cor do sinal')
+
+   switch(sinal){
+       case 'verde':
+           document.write('SIGA');
+           break;
+        case 'amarelo':
+            document.write('ATENÇÃO');
+            break;
+        case 'vermelho':
+            document.write('PARE!!!')
+            break;
+        default:
+            document.write('***Semáforo com defeito***')
+            break;
+   }
+    }
+    semaforo()
+   
+
+
+    </script>
+</body>
+</html>
